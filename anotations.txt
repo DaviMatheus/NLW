@@ -24,4 +24,4 @@ app.post("/test-post", (request, response) => {
 ====================================================================
                         **** PATH *****
 
--> SERVER -> CONTROLLER -> SERVICES -> REPOSITORIES -> ENTITIES -> BD
+-> SERVER -> ROUTES -> CONTROLLER -> SERVICES -> REPOSITORIES -> ENTITIES -> BD
