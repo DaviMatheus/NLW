@@ -1,0 +1,27 @@
+
+                     **** ANOTATIONS **************
+/** TYPES OF PARAMS 
+ * ROUTER PARAMS : https://localhost:3000/test/product/123123123 <= id or other thing
+ * QUERRY PARAMS : https://localhost:3000/tste/product?name=mousse&description=gamer
+ * BODY PARAMS: {
+ *      "name": "mouse",
+ *      "description" "gamer"
+ * }
+ */
+
+ 
+===================================================================================
+                          *** BEGGINING STAGE CODING ***********
+ app.get("/test", (request, response) => {
+
+    return response.send("Hello User");
+});
+
+app.post("/test-post", (request, response) => {
+    return response.send("Hello User method POST");
+});
+
+====================================================================
+                        **** PATH *****
+
+-> SERVER -> CONTROLLER -> SERVICES -> REPOSITORIES -> ENTITIES -> BD
