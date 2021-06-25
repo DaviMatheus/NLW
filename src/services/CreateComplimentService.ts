@@ -41,3 +41,5 @@ class CreateComplimentService{
     }
 
 }
+
+export { CreateComplimentService  };
